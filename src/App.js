@@ -7,6 +7,7 @@ import ServiceButtons from './component/ServiceButtons';
 import About from './component/About';
 import Ministry from './component/Ministry';
 import Contact from './component/Contact';
+import FadeIn from './component/FadeIn';
 
 import { Icon } from 'react-icons-kit'
 import {alertCircle} from 'react-icons-kit/feather/alertCircle'
@@ -51,9 +52,10 @@ function App() {
 
         <section id="contact" className="md:container md:mx-auto p-0 xl:px-10">
           <div class="divider mb-10 md:mb-16 lg:mb-24"></div>
-          <Contact/>
+          <FadeIn>
+            <Contact/>
+          </FadeIn>
         </section>
-
       </main>
 
       <footer className="w-full p-6 bg-blue-500">

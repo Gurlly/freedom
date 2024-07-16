@@ -92,28 +92,39 @@ const About = () => {
 
   return (
     <>
-        <div 
-        className="p-3 md:p-5 lg:p-8 xl:p-10 text-stone-800 border rounded-lg shadow-md shadow-stone-300 bg-teal-50 md:text-lg lg:text-xl mb-8 md:mb-14 xl:mb-24">
+        <div className="max-h-max grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8 md:mb-14 xl:mb-24">
+          <div 
+          className="p-3 md:p-5 lg:p-8 xl:p-10 text-stone-800 border rounded-lg shadow-md shadow-stone-300 bg-teal-50 md:text-lg lg:text-xl">
+            <FadeIn>
+              <h1 className="font-serif text-2xl md:text-4xl lg:text-6xl font-extrabold mb-4 lg:mb-6">
+                Welcome to Freedom!!
+              </h1>
+            </FadeIn>
+            <FadeIn>
+              <p className="text-justify mb-3 lg:mb-5 text-stone-600">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis,
+                exercitationem. Ut excepturi similique ipsam? Eius ea aliquam labore
+                explicabo voluptates culpa ducimus saepe autem aliquid. Dolorem
+                minima doloremque nisi alias!
+                <br />
+                <br />
+                Commodi aspernatur nostrum iste excepturi, ut unde accusantium
+                aliquam consectetur nemo corporis cupiditate ducimus rem, sunt in
+                tempore voluptatibus necessitatibus quidem praesentium.
+              </p>
+            </FadeIn>
+          </div>
           <FadeIn>
-            <h1 className="font-serif text-2xl md:text-4xl lg:text-6xl font-extrabold mb-4 lg:mb-6">
-              Welcome to Freedom!!
-            </h1>
-          </FadeIn>
-          <FadeIn>
-            <p className="text-justify mb-3 lg:mb-5 text-stone-600">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis,
-              exercitationem. Ut excepturi similique ipsam? Eius ea aliquam labore
-              explicabo voluptates culpa ducimus saepe autem aliquid. Dolorem
-              minima doloremque nisi alias!
-              <br />
-              <br />
-              Commodi aspernatur nostrum iste excepturi, ut unde accusantium
-              aliquam consectetur nemo corporis cupiditate ducimus rem, sunt in
-              tempore voluptatibus necessitatibus quidem praesentium?
-            </p>
+            <div className="w-full h-full hidden lg:block">
+              <img 
+              src="https://scontent.fcrk3-1.fna.fbcdn.net/v/t39.30808-6/449520234_2269535776716901_1251191491298226156_n.jpg?stp=cp6_dst-jpg&_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=XYdHlGK0KzEQ7kNvgEsXf9Y&_nc_ht=scontent.fcrk3-1.fna&oh=00_AYDykIUTsVq7_oebElkPO4MW72QPo5alhz4X6FxJpyV0Xw&oe=669BAD79"
+              alt="about freedom"
+              className="w-full h-full rounded-lg object-cover object-center"
+              />
+            </div>
           </FadeIn>
         </div>
-
+        
         <div className="grid grid-cols-1  md:grid-cols-2 xl:grid-cols-4 gap-8">
             {
             accordionItems.map((acc) => (
