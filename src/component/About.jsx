@@ -3,6 +3,8 @@ import { useState } from "react";
 import { AiOutlinePlus } from 'react-icons/ai';
 import { FiMinus } from 'react-icons/fi';
 
+import FadeIn from './FadeIn'
+
 const MissionAndVision = () => {
   return (
     <>
@@ -90,21 +92,26 @@ const About = () => {
 
   return (
     <>
-        <div className="p-3 md:p-5 lg:p-8 xl:p-10 text-stone-800 border rounded-lg shadow-md shadow-stone-300 bg-teal-50 md:text-lg lg:text-xl mb-8 md:mb-14 xl:mb-24">
-          <h1 className="font-serif text-2xl md:text-4xl lg:text-6xl font-extrabold mb-4 lg:mb-6">
-            Welcome to Freedom!!
-          </h1>
-          <p className="text-justify mb-3 lg:mb-5 text-stone-600">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis,
-            exercitationem. Ut excepturi similique ipsam? Eius ea aliquam labore
-            explicabo voluptates culpa ducimus saepe autem aliquid. Dolorem
-            minima doloremque nisi alias!
-            <br />
-            <br />
-            Commodi aspernatur nostrum iste excepturi, ut unde accusantium
-            aliquam consectetur nemo corporis cupiditate ducimus rem, sunt in
-            tempore voluptatibus necessitatibus quidem praesentium?
-          </p>
+        <div 
+        className="p-3 md:p-5 lg:p-8 xl:p-10 text-stone-800 border rounded-lg shadow-md shadow-stone-300 bg-teal-50 md:text-lg lg:text-xl mb-8 md:mb-14 xl:mb-24">
+          <FadeIn>
+            <h1 className="font-serif text-2xl md:text-4xl lg:text-6xl font-extrabold mb-4 lg:mb-6">
+              Welcome to Freedom!!
+            </h1>
+          </FadeIn>
+          <FadeIn>
+            <p className="text-justify mb-3 lg:mb-5 text-stone-600">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis,
+              exercitationem. Ut excepturi similique ipsam? Eius ea aliquam labore
+              explicabo voluptates culpa ducimus saepe autem aliquid. Dolorem
+              minima doloremque nisi alias!
+              <br />
+              <br />
+              Commodi aspernatur nostrum iste excepturi, ut unde accusantium
+              aliquam consectetur nemo corporis cupiditate ducimus rem, sunt in
+              tempore voluptatibus necessitatibus quidem praesentium?
+            </p>
+          </FadeIn>
         </div>
 
         <div className="grid grid-cols-1  md:grid-cols-2 xl:grid-cols-4 gap-8">

@@ -1,5 +1,5 @@
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { FaMapMarkerAlt } from 'react-icons/fa';
 import { FaPhone } from 'react-icons/fa';
 import { FaEnvelope } from 'react-icons/fa';
@@ -34,17 +34,28 @@ const Contact = () => {
 
     const [location, setLocation] = useState(locations[0]);
 
+    const [state, handleSubmit] = useForm("mnnanzbd");
+
     const changeLocation = (locID) => {
         const selectedLocation = locations.find(loc => loc.id === locID);
         if (selectedLocation) {
-            setLocation(selectedLocation);
+            setFade(false); // Trigger fade-out
+            setTimeout(() => {
+                setLocation(selectedLocation);
+                setFade(true); // Trigger fade-in
+            }, 500); // Adjust timeout to match your CSS transition duration
         }
     }
 
-    const [state, handleSubmit] = useForm("mnnanzbd");
+    const [fade, setFade] = useState(false);
+
+    useEffect(() => {
+        setFade(true);
+    }, [])
 
   return (
     <>
+        {/** Drowdown */}
         <div className="dropdown md:mb-3">
             <label className="btn btn-primary mb-3" tabIndex="0">{location.name}</label>
             <div className="dropdown-menu dropdown-menu-bottom-right">
@@ -64,20 +75,20 @@ const Contact = () => {
                 }
             </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 lg:gap-14 text-stone-800 mb-10 md:mb-16 lg:mb-24">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 lg:gap-14 text-stone-800 mb-10 md:mb-16 lg:mb-20">
             <div className="w-full h-[30rem] md:h-[27rem] lg:h-[33rem] xl:h-[35rem] flex flex-col p-4 lg:p-6 rounded-lg shadow shadow-zinc-800 bg-zinc-50">
                 <div className="w-full">
                     <div className='grid grid-cols-12 items-center mb-3'>
                         <FaMapMarkerAlt className='mr-4' />
-                        <h3 className='col-start-2 col-end-12'>{location.address}</h3>
+                        <h3 className={`col-start-2 col-end-12 transition-opacity duration-1000 ${fade ? "opacity-100" : "opacity-0"}`}>{location.address}</h3>
                     </div>
                     <div className='grid grid-cols-12 items-center mb-3'>
                         <FaPhone className='mr-4'/>
-                        <h3 className='col-start-2 col-end-12'><a href="tel:+639969347564">0996-934-7564</a></h3>
+                        <h3 className={`col-start-2 col-end-12 transition-opacity duration-1000 ${fade ? "opacity-100" : "opacity-0"}`}><a href="tel:+639969347564">0996-934-7564</a></h3>
                     </div>
                     <div className='grid grid-cols-12 items-center mb-3'>
                         <FaEnvelope className='mr-4'/>
-                        <h3 className='col-start-2 col-end-12'><a href="mailto:freedom.center@gmail.com">freedom.center@gmail.com</a></h3>
+                        <h3 className={`col-start-2 col-end-12 transition-opacity duration-1000 ${fade ? "opacity-100" : "opacity-0"}`}><a href="mailto:freedom.center@gmail.com">freedom.center@gmail.com</a></h3>
                     </div>
                 </div>
                 <div className="w-full flex-1">

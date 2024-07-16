@@ -1,6 +1,5 @@
 import React from 'react'
 
-
 const ministries = [
     {
         name: "Worship Team",
@@ -59,8 +58,6 @@ const Ministry = () => {
                     </div>
                 ))
             }
-
-
         </div>
     </>
   )

@@ -62,7 +62,6 @@ const Modals = () => {
                         {modal.icon}
                     </div>
                     <h3 className='font-semibold text-center cursor-pointer hover:underline underline-offset-4'>{modal.name}</h3>
-
                     <input className="modal-state" id={modal.id} type="checkbox" />
                     <div className="modal">
                         <label className="modal-overlay" htmlFor={modal.id}></label>
