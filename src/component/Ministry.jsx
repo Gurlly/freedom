@@ -50,7 +50,7 @@ const Ministry = () => {
                             <img className='w-full h-full object-cover object-center aspect-square rounded-lg' src={ministry.src} alt={ministry.name} />
                         </div>
                         <a 
-                        className='w-full h-full p-5 absolute top-0 left-0 z-10 text-white text-shadow font-extrabold hover:backdrop-blur-sm hover:text-sky-500 flex flex-col items-center justify-center transition ease-linear'
+                        className='w-full h-full p-5 absolute top-0 left-0 z-10 text-white text-shadow font-extrabold hover:backdrop-blur-sm hover:text-sky-400 flex flex-col items-center justify-center transition ease-linear'
                         href="/"
                         >
                             <h1 className='w-full text-3xl xl:text-4xl text-center'>{ministry.name}</h1>

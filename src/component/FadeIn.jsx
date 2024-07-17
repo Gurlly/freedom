@@ -4,7 +4,7 @@ import { useInView } from "react-intersection-observer";
 const FadeIn = ({ children }) => {
   const { ref, inView } = useInView({
     triggerOnce: false, // Trigger the animation only once
-    threshold: 0.2,
+    threshold: 0.05,
   });
   return (
     <div

@@ -1,7 +1,6 @@
 
 // Icons
-import { BsThreeDots } from "react-icons/bs";
-import { FaHome } from "react-icons/fa";
+import { FaHome, FaBars } from "react-icons/fa";
 import { BiSolidChurch } from "react-icons/bi";
 import { HiUserGroup } from "react-icons/hi2";
 import { RiContactsBook2Fill } from "react-icons/ri";
@@ -49,10 +48,10 @@ const Nav = () => {
                 </ul>
 
                 <label
-                className="lg:hidden p-1 bg-zinc-50 text-xl text-zinc-900 border rounded-md border-zinc-600 cursor-pointer hover:bg-amber-50 transition ease-in-out delay-75"
+                className="lg:hidden p-1 text-2xl text-zinc-900 rounded-md border-zinc-600 cursor-pointer hover:bg-amber-50 transition ease-in-out delay-75"
                 htmlFor="sideNavDrawer"
                 >
-                    <BsThreeDots/>
+                    <FaBars/>
                 </label>
 
                 <label className="overlay" htmlFor="sideNavDrawer"></label>

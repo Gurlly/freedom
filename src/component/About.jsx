@@ -94,7 +94,7 @@ const About = () => {
     <>
         <div className="max-h-max grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8 md:mb-14 xl:mb-24">
           <div 
-          className="p-3 md:p-5 lg:p-8 xl:p-10 text-stone-800 border rounded-lg shadow-md shadow-stone-300 bg-teal-50 md:text-lg lg:text-xl">
+          className="p-3 md:p-5 lg:p-8 xl:p-10 text-stone-800 border rounded-lg shadow-md shadow-stone-400 bg-slate-50 md:text-lg lg:text-xl">
             <FadeIn>
               <h1 className="font-serif text-2xl md:text-4xl lg:text-6xl font-extrabold mb-4 lg:mb-6">
                 Welcome to Freedom!!

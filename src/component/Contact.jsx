@@ -58,7 +58,7 @@ const Contact = () => {
         {/** Drowdown */}
         <div className="dropdown md:mb-3">
             <label className="btn btn-primary mb-3" tabIndex="0">{location.name}</label>
-            <div className="dropdown-menu dropdown-menu-bottom-right">
+            <div className="dropdown-menu dropdown-menu-top-right border border-stone-900">
                 {
                     locations.map(loc => (
                         <a 
@@ -76,7 +76,7 @@ const Contact = () => {
             </div>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5 lg:gap-14 text-stone-800 mb-10 md:mb-16 lg:mb-20">
-            <div className="w-full h-[30rem] md:h-[27rem] lg:h-[33rem] xl:h-[35rem] flex flex-col p-4 lg:p-6 rounded-lg shadow shadow-zinc-800 bg-zinc-50">
+            <div className="w-full h-[30rem] md:h-[27rem] lg:h-[33rem] xl:h-[35rem] flex flex-col p-4 lg:p-6 rounded-lg shadow shadow-zinc-800 bg-slate-50">
                 <div className="w-full">
                     <div className='grid grid-cols-12 items-center mb-3'>
                         <FaMapMarkerAlt className='mr-4' />
@@ -103,7 +103,7 @@ const Contact = () => {
             </div>
             <form 
             onSubmit={handleSubmit}
-            className="w-full h-[30rem] md:h-[27rem] lg:h-[33rem] xl:h-[35rem] p-4 lg:p-6 rounded-lg shadow shadow-zinc-800 bg-zinc-50 flex flex-col gap-y-3"
+            className="w-full h-[30rem] md:h-[27rem] lg:h-[33rem] xl:h-[35rem] p-4 lg:p-6 rounded-lg shadow shadow-zinc-800 bg-slate-50 flex flex-col gap-y-3"
             >
                 <h1 className='font-serif text-2xl font-semibold'>Contact Us:</h1>
                 <input 
