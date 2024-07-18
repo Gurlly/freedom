@@ -47,7 +47,7 @@ const PageThree = () => {
             <div>
                 <h5 className="font-semibold mb-1">Man is Separated</h5>
                 <p className="text-justify mb-2">"The wages of sin is death" <span className="text-gray-500">[spiritual separation from God]</span> <span className="text-sky-600">(Romans 6:23)</span></p>
-                <img src="https://www.4laws.com/laws/englishkgp/images/law2.gif" alt="Man Cannot Reach God" className="mx-auto my-8" />
+                <img src="https://lh3.googleusercontent.com/blogger_img_proxy/AEn0k_tczyMat05hYTnmWjTG0Qn4pTNQe9r6jKzbWIt7hTTvX3XUpRVxt_JInHLpEmM5as36CNWLTVp2KJa9qAlphddWC1fI0gQ31FQhNIlsK3LeIJl2o14Zmg=s0-d" alt="Man Cannot Reach God" className="mx-auto my-8" />
                 <p className="text-justify mb-3">"...(Those) who do not know God and do not obey the gospel of our Lord Jesus...will be punished with everlasting destruction and shut out from the presence of the Lord..." <span className="text-sky-600">(2 Thessalonians 1:8,9)</span></p>
             </div>
         </>
@@ -77,7 +77,7 @@ const PageFive = () => {
             <div>
                 <h5 className="font-semibold mb-1">He is the Only Way to God</h5>
                 <p className="text-justify mb-2">"Jesus said to him, 'I am the way, and the truth, and the life; no one comes to the Father, but through Me.'" <span className="text-sky-600">(John 14:6)</span></p>
-                <img src="https://www.4laws.com/laws/englishkgp/images/law3.gif" alt="God reach us Man through Jesus" className="mx-auto my-8" />
+                <img src="https://lh3.googleusercontent.com/blogger_img_proxy/AEn0k_sgJgjfP4s6iPUa0cGfq2dk80riTns_isnIVkQJfURgf8iDjmUjgJMzb_dP3FF_Zzd_DZtP13lM7aeJ5k_R55AeDDofnlRpqihRdLdTsCfnnc6b85gvrdU=s0-d" alt="God reach us Man through Jesus" className="mx-auto my-8" />
                 <p className="text-justify mb-3 text-sm">This diagram shows that God reached us by sending Jesus Christ (His Son) to die on the cross for our sins.</p>
             </div>
         </>
@@ -118,8 +118,8 @@ const PageEight = () => {
         <>  
             <div>
                 <h5 className="font-semibold mb-1">Two representation of lives</h5>
-                <img src="https://www.4laws.com/laws/englishkgp/images/law4.1.gif" alt="God reach us Man through Jesus" className="mx-auto my-8" />
-                <img src="https://www.4laws.com/laws/englishkgp/images/law4.2.gif" alt="God reach us Man through Jesus" className="mx-auto my-8" />
+                <img src="https://lh3.googleusercontent.com/blogger_img_proxy/AEn0k_tRigGJz21Y8S18SYT9GXGgxx-tmwCdOsiG-5DZX7xVpOxVElfuDodPhmIcayB0eA19AcD4dKtxozJMzf6q-Gv5qPsImo6a2ZUTSVdy4lOx9Yf9qVDbYxcbbQ=s0-d" alt="God reach us Man through Jesus" className="mx-auto my-8" />
+                <img src="https://lh3.googleusercontent.com/blogger_img_proxy/AEn0k_u6GpG9Ra9e1LAVHQwbL-2bz2JG-1EXYx9h66j53v8V1OJextwVvFBlPM4sDd-L3ynW8aGvWXab68irjwrI-T3Knw7CziNwt2R1_e5KekPIZ57LjVlSO4g6rw=s0-d" alt="God reach us Man through Jesus" className="mx-auto my-8" />
                 <p className="text-justify mb-1 text-sm">Which circle represents your life?</p>
                 <p className="text-justify mb-3 text-sm">Which circle would you like to have represent your life?</p>
             </div>
