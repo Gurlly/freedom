@@ -9,8 +9,7 @@ import Ministry from './component/Ministry';
 import Contact from './component/Contact';
 import FadeIn from './component/FadeIn';
 
-import { Icon } from 'react-icons-kit'
-import {alertCircle} from 'react-icons-kit/feather/alertCircle'
+import { FiInfo } from 'react-icons/fi';
 import { FaFacebookSquare, FaFacebookMessenger } from 'react-icons/fa';
 
 function App() {
@@ -43,7 +42,7 @@ function App() {
           </div>
           <div className='w-full mb-2 lg:mb-3 flex justify-end'>
             <span className='tooltip tooltip-left' data-tooltip="Click to join a ministry!">
-              <button><Icon icon={alertCircle} size={20} /></button>
+              <button><FiInfo size={20}/></button>
             </span>
           </div>
           <Ministry/>
@@ -52,7 +51,7 @@ function App() {
         {/** Divider Line */}
 
         <section id="contact" className="md:container md:mx-auto p-0 xl:px-10">
-          <div class="divider mb-10 md:mb-16 lg:mb-24 divide-black"></div>
+          <div className="divider mb-10 md:mb-16 lg:mb-24 divide-black"></div>
           <FadeIn>
             <Contact/>
           </FadeIn>

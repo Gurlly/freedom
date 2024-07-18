@@ -1,94 +1,18 @@
-import { useState } from "react";
 
 import { AiOutlinePlus } from 'react-icons/ai';
 import { FiMinus } from 'react-icons/fi';
 
 import FadeIn from './FadeIn'
 
-const MissionAndVision = () => {
-  return (
-    <>
-      <ul>
-        <li className="mb-3">
-          <p className="text-justify">
-            <span className="font-semibold text-stone-800">Mission:</span> Lorem
-            ipsum dolor, sit amet consectetur adipisicing elit.
-          </p>
-        </li>
-        <li>
-          <p className="text-justify">
-            <span className="font-semibold text-stone-800">Vision:</span> Ut
-            iste tenetur esse, ab suscipit dolorum culpa neque ratione accusamus
-            eligendi corporis, illo non consequatur.
-          </p>
-        </li>
-      </ul>
-    </>
-  );
-};
+import useFreedom from '../hooks/useFreedom';
 
-const StatementOfFaith = () => {
-  return (
-    <>
-      <ul>
-        <li className="mb-3">
-          <p className="text-justify">
-            <span className="font-semibold text-stone-800">Mission:</span> Lorem
-            ipsum dolor, sit amet consectetur adipisicing elit.
-          </p>
-        </li>
-        <li>
-          <p className="text-justify">
-            <span className="font-semibold text-stone-800">Vision:</span> Ut
-            iste tenetur esse, ab suscipit dolorum culpa neque ratione accusamus
-            eligendi corporis, illo non consequatur.
-          </p>
-        </li>
-      </ul>
-    </>
-  );
-};
 
 const About = () => {
 
-  const [accordionItems, setAccordionItems] = useState([
-    {
-      title: "Mission and Vision",
-      id: "mv",
-      content: <MissionAndVision />,
-      src: "https://scontent.fcrk3-1.fna.fbcdn.net/v/t39.30808-6/419868277_2157316691272144_7059206485147150026_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_ohc=oOfxCwb_dAYQ7kNvgG5si2M&_nc_ht=scontent.fcrk3-1.fna&oh=00_AYDp6pgOKt25tIzzU1j0f0rT_lxRHlP-I29seodKA9glvA&oe=66982DBA",
-        active: false,
-    },
-    {
-      title: "Statement of Faith",
-      id: "sof",
-      content: <StatementOfFaith />,
-      src: "https://scontent.fcrk3-3.fna.fbcdn.net/v/t39.30808-6/434148953_2206646576339155_8500095676298051358_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_ohc=ezRHKHY5SL0Q7kNvgF284n7&_nc_ht=scontent.fcrk3-3.fna&oh=00_AYC2WMasedmK_DweGS84lnI03u6vZYd0XXvP3wBFIj_nVw&oe=6698133B",
-      active: false,
-    },
-    {
-      title: "Core Values",
-      id: "cv",
-      content: "",
-      src: "https://scontent.fcrk3-2.fna.fbcdn.net/v/t39.30808-6/419896325_2157316044605542_7010210353471705348_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=XmkIcx4eLcYQ7kNvgHgnJ1y&_nc_ht=scontent.fcrk3-2.fna&oh=00_AYD9PXASljmAwyzipsp_I93RwvLgFhC437FgOBwa7ZxMlA&oe=66980A12",
-      active: false,
-    },
-    {
-      title: "Our Ministries",
-      id: "om",
-      content: "",
-      src: "https://scontent.fcrk3-2.fna.fbcdn.net/v/t39.30808-6/417819090_2152079115129235_5317915930658846315_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=4wQU3wQe1pUQ7kNvgGB7GId&_nc_ht=scontent.fcrk3-2.fna&oh=00_AYAK87lEzNRpDRSPsLG6uBaIjH5rI8ZrsH5I9HTehp0QaA&oe=66981910",
-      active: false,
-    },
-  ])
-
-  const changeActiveItem = (id) => {
-    setAccordionItems((prevItems) =>
-      prevItems.map(item =>
-        item.id === id ? { ...item, active: !item.active } : item
-      )
-    );
-  };
+  const {
+    accordionItems,
+    changeActiveItem
+  } = useFreedom();
 
   return (
     <>
