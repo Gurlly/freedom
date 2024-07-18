@@ -47,7 +47,7 @@ const PageThree = () => {
             <div>
                 <h5 className="font-semibold mb-1">Man is Separated</h5>
                 <p className="text-justify mb-2">"The wages of sin is death" <span className="text-gray-500">[spiritual separation from God]</span> <span className="text-sky-600">(Romans 6:23)</span></p>
-                <img src="http://www.4laws.com/laws/englishkgp/images/law2.gif" alt="Man Cannot Reach God" className="mx-auto my-8" />
+                <img src="https://www.4laws.com/laws/englishkgp/images/law2.gif" alt="Man Cannot Reach God" className="mx-auto my-8" />
                 <p className="text-justify mb-3">"...(Those) who do not know God and do not obey the gospel of our Lord Jesus...will be punished with everlasting destruction and shut out from the presence of the Lord..." <span className="text-sky-600">(2 Thessalonians 1:8,9)</span></p>
             </div>
         </>
@@ -77,7 +77,7 @@ const PageFive = () => {
             <div>
                 <h5 className="font-semibold mb-1">He is the Only Way to God</h5>
                 <p className="text-justify mb-2">"Jesus said to him, 'I am the way, and the truth, and the life; no one comes to the Father, but through Me.'" <span className="text-sky-600">(John 14:6)</span></p>
-                <img src="http://www.4laws.com/laws/englishkgp/images/law3.gif" alt="God reach us Man through Jesus" className="mx-auto my-8" />
+                <img src="https://www.4laws.com/laws/englishkgp/images/law3.gif" alt="God reach us Man through Jesus" className="mx-auto my-8" />
                 <p className="text-justify mb-3 text-sm">This diagram shows that God reached us by sending Jesus Christ (His Son) to die on the cross for our sins.</p>
             </div>
         </>
@@ -118,8 +118,8 @@ const PageEight = () => {
         <>  
             <div>
                 <h5 className="font-semibold mb-1">Two representation of lives</h5>
-                <img src="http://www.4laws.com/laws/englishkgp/images/law4.1.gif" alt="God reach us Man through Jesus" className="mx-auto my-8" />
-                <img src="http://www.4laws.com/laws/englishkgp/images/law4.2.gif" alt="God reach us Man through Jesus" className="mx-auto my-8" />
+                <img src="https://www.4laws.com/laws/englishkgp/images/law4.1.gif" alt="God reach us Man through Jesus" className="mx-auto my-8" />
+                <img src="https://www.4laws.com/laws/englishkgp/images/law4.2.gif" alt="God reach us Man through Jesus" className="mx-auto my-8" />
                 <p className="text-justify mb-1 text-sm">Which circle represents your life?</p>
                 <p className="text-justify mb-3 text-sm">Which circle would you like to have represent your life?</p>
             </div>
