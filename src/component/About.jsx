@@ -6,7 +6,6 @@ import FadeIn from './FadeIn'
 
 import useFreedom from '../hooks/useFreedom';
 
-
 const About = () => {
 
   const {

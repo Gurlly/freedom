@@ -79,7 +79,7 @@ export default function useFreedom() {
       title: "Mission and Vision",
       id: "mv",
       content: <MissionAndVision />,
-      src: "https://scontent.fcrk3-1.fna.fbcdn.net/v/t39.30808-6/419868277_2157316691272144_7059206485147150026_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_ohc=oOfxCwb_dAYQ7kNvgG5si2M&_nc_ht=scontent.fcrk3-1.fna&oh=00_AYDp6pgOKt25tIzzU1j0f0rT_lxRHlP-I29seodKA9glvA&oe=66982DBA",
+      src: "https://scontent.fmnl33-1.fna.fbcdn.net/v/t39.30808-6/438804775_2221294444874368_6198002353763725479_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_ohc=On60k4LpodIQ7kNvgHdIMJs&_nc_ht=scontent.fmnl33-1.fna&oh=00_AYDtVOtnnud8XOzfQHD97rGH-_yXGbJ9IuqKH3LIxEd7gA&oe=669E8775",
       active: false,
     },
     {
