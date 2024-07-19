@@ -13,6 +13,14 @@ module.exports = {
       fontFamily: {
         "sans": ["Poppins", "sans-serif"],
         "serif": ["Roboto", "sans-serif"]
+      },
+      colors: {
+        "freedom-blue": "#055faf",
+        "freedom-ligh-blue": "#01d8f4",
+        "freedom-yellow": "#f7f1b5",
+        "freedom-violet": "#8431b5",
+        "freedom-gray": "#959595",
+        "freedom-text": "#232323",
       }
     },
   },

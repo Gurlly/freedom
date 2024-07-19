@@ -5,37 +5,37 @@ const ministries = [
         name: "Worship Team",
         id: "wt",
         form: "",
-        src: "https://scontent.fcrk3-2.fna.fbcdn.net/v/t39.30808-6/302409710_1809046816099135_358845626151579073_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=FldHIWW385MQ7kNvgGQaQyh&_nc_ht=scontent.fcrk3-2.fna&oh=00_AYDCX87ICJ-UM-kglYtBim8N_9Bcu0SNY8H6QDYUA3RPcg&oe=66997E7F"
+        src: "https://scontent.fmnl33-3.fna.fbcdn.net/v/t39.30808-6/419870894_2157315701272243_6747960498399339119_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_ohc=1reCCb7WIYwQ7kNvgFu0sZb&_nc_ht=scontent.fmnl33-3.fna&oh=00_AYC7by7VWmihxqv7ufX_QceBcsUNVGmVQ7HZXWGCPjkBOg&oe=669F9D43"
     },
     {
         name: "Communication Team",
         id: "ct",
         form: "",
-        src: "https://scontent.fcrk3-1.fna.fbcdn.net/v/t39.30808-6/419917812_2157316594605487_4970233366465305792_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=1H-uI-Ko9H0Q7kNvgFKukna&_nc_ht=scontent.fcrk3-1.fna&oh=00_AYAYXAD6QX9hxubMmW_hMDsmVFxYoz2Jtq6N17TPCKWp_A&oe=66995B51"
+        src: "https://scontent.fmnl33-5.fna.fbcdn.net/v/t39.30808-6/419917812_2157316594605487_4970233366465305792_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=9mXh1z4mZFUQ7kNvgGe3Qhx&_nc_ht=scontent.fmnl33-5.fna&oh=00_AYAlku5dv6MPUiwBli-AFt_VW8ioF1TSsL6c66i8ffusSg&oe=669FBA91"
     },
     {
         name: "Women of Worth",
         id: "wow",
         form: "",
-        src: "https://scontent.fcrk3-1.fna.fbcdn.net/v/t39.30808-6/346052100_1250245229191448_8579670501672203261_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=MnFCpTz5QTgQ7kNvgGbgX1h&_nc_ht=scontent.fcrk3-1.fna&oh=00_AYAhCEhdr9i7Msy4sJhODcauEoVsaLa3LP_JH5Zch4ll4w&oe=669955B7"
+        src: "https://scontent.fmnl33-6.fna.fbcdn.net/v/t39.30808-6/346052100_1250245229191448_8579670501672203261_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=j9m38_vq1lUQ7kNvgHsNbfa&_nc_ht=scontent.fmnl33-6.fna&oh=00_AYBVLYTCwkA8uwh0NghjxF12qk53kMILpJqO6OqoAuTaUw&oe=669FB4F7"
     },
     {
         name: "Pastoral Team",
         id: "pt",
         form: "",
-        src: "https://scontent.fcrk3-2.fna.fbcdn.net/v/t39.30808-6/343420230_744544204127349_8779161930402154140_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=2Zh23rdlGRAQ7kNvgGR6H8A&_nc_ht=scontent.fcrk3-2.fna&oh=00_AYBOfN5DWURltrc8qidhF4Rizd9jvzm4cmay17ALgZy5WQ&oe=669967FA"
+        src: "https://scontent.fmnl33-6.fna.fbcdn.net/v/t39.30808-6/343212106_768221714915864_7664162517929807718_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=GYqGnm52MhwQ7kNvgGNnBV-&_nc_ht=scontent.fmnl33-6.fna&oh=00_AYDwjqXvmBHFp_LUAGqZ1dpmRBlrd9LhstftntMW-zlDGg&oe=669FBC29"
     },
     {
         name: "Kids Ministry",
         id: "km",
         form: "",
-        src: "https://scontent.fcrk3-1.fna.fbcdn.net/v/t39.30808-6/321827277_492814942981485_3138112409899717830_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_ohc=fPkLSnWPQZQQ7kNvgFtN-i5&_nc_ht=scontent.fcrk3-1.fna&oh=00_AYCnxcNLqMe5wfDWe8HVdk-04EDr7gROyHnXRHOZmGvYNQ&oe=669954D1"
+        src: "https://scontent.fmnl33-5.fna.fbcdn.net/v/t39.30808-6/342391433_178456735085719_5137668234195100091_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=-xyeNz4JJ7kQ7kNvgFN9xiR&_nc_ht=scontent.fmnl33-5.fna&oh=00_AYA44fia8VOYElVQohdAhZncQzEtPej2Ws8QvoUU8NrFVA&oe=669FA0F2"
     },  
     {
         name: "Missionary",
         id: "mission",
         form: "",
-        src: "https://scontent.fcrk3-2.fna.fbcdn.net/v/t39.30808-6/441021601_2230935037243642_4337376505896511895_n.jpg?stp=cp6_dst-jpg&_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=E67EmCKhvmkQ7kNvgFW88t6&_nc_ht=scontent.fcrk3-2.fna&oh=00_AYBKmY0w0LfGg2IGVBqvlVLDeDEJx91qY8t8YcINA4M1Dg&oe=66995646"
+        src: "https://scontent.fmnl33-1.fna.fbcdn.net/v/t39.30808-6/321436686_863129198140878_5477641349615972367_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=9QbEv9rNxeoQ7kNvgFlx_w-&_nc_ht=scontent.fmnl33-1.fna&oh=00_AYAfP-nL_BnOU7OrCkSIHiMhE7zHGo2JHYgDCLRWh78g6A&oe=669FCD9F"
     }
 ]
 
@@ -50,7 +50,7 @@ const Ministry = () => {
                             <img className='w-full h-full object-cover object-center aspect-square rounded-lg' src={ministry.src} alt={ministry.name} />
                         </div>
                         <a 
-                        className='w-full h-full p-5 absolute top-0 left-0 z-10 text-white text-shadow font-extrabold hover:backdrop-blur-sm hover:text-sky-400 flex flex-col items-center justify-center transition ease-linear'
+                        className='w-full h-full p-5 absolute top-0 left-0 z-10 text-zinc-50 text-shadow font-extrabold hover:backdrop-blur-sm hover:text-freedom-ligh-blue flex flex-col items-center justify-center transition ease-linear'
                         href="/"
                         >
                             <h1 className='w-full text-3xl xl:text-4xl text-center'>{ministry.name}</h1>

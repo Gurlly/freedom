@@ -62,7 +62,7 @@ const Modals = () => {
                     className="w-full p-2 flex flex-col items-center"
                     htmlFor={modal.id}
                     >
-                        <div className='rounded-full p-4 mb-2 border bg-amber-100 text-violet-700 hover:bg-amber-200 hover:text-violet-800 transition-colors ease-linear delay-75 cursor-pointer'>
+                        <div className='rounded-full p-4 mb-2 border bg-freedom-yellow text-freedom-violet hover:bg-amber-200 hover:text-violet-600 transition-colors ease-linear delay-75 cursor-pointer'>
                             {modal.icon}
                         </div>
                         <h3 className='font-semibold text-center cursor-pointer hover:underline underline-offset-4'>{modal.name}</h3>
@@ -70,8 +70,8 @@ const Modals = () => {
                     <input className="modal-state" id={modal.id} type="checkbox" />
                     <div className="modal">
                         <label className="modal-overlay"></label>
-                        <div className={`modal-content w-5/6 max-h-[90%] ${modal.id === "dGroup" ? "max-w-[95%] md:max-w-2xl" : ""} p-0 flex flex-col bg-zinc-100 border border-zinc-800`}>
-                            <div className='flex justify-between items-center p-4 border-b-2 bg-blue-500 border-stone-800'>
+                        <div className={`modal-content w-5/6 max-h-[90%] ${modal.id === "dGroup" ? "max-w-[95%] md:max-w-2xl" : ""} p-0 flex flex-col bg-zinc-100 shadow shadow-freedom-text`}>
+                            <div className='flex justify-between items-center p-4 border-b-2 bg-freedom-blue border-stone-800'>
                                 <h2 className="text-xl font-bold text-zinc-100">{modal.name}</h2>
                                 <label htmlFor={modal.id} className=" cursor-pointer text-xl hover:font-semibold">✕</label>
                             </div>

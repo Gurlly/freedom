@@ -6,21 +6,22 @@ import { useForm} from '@formspree/react';
 const MissionAndVision = () => {
   return (
     <>
-      <ul>
-        <li className="mb-3">
-          <p className="text-justify">
-            <span className="font-semibold text-stone-800">Mission:</span> Lorem
-            ipsum dolor, sit amet consectetur adipisicing elit.
-          </p>
-        </li>
-        <li>
-          <p className="text-justify">
-            <span className="font-semibold text-stone-800">Vision:</span> Ut
-            iste tenetur esse, ab suscipit dolorum culpa neque ratione accusamus
-            eligendi corporis, illo non consequatur.
-          </p>
-        </li>
-      </ul>
+      <div className="text-stone-900">
+        <h5 className="font-semibold mb-2">
+          Mission:
+        </h5>
+        <p className="mb-3 text-sm text-justify">
+          To honor God, and proclaim Christ.
+        </p>
+      </div>
+      <div className="text-stone-900">
+        <h5 className="font-semibold mb-2">
+          Vision:
+        </h5>
+        <p className="text-sm text-justify">
+          Church in every barangay in the Philippines.
+        </p>
+      </div>
     </>
   );
 };
@@ -28,24 +29,136 @@ const MissionAndVision = () => {
 const StatementOfFaith = () => {
   return (
     <>
-      <ul>
-        <li className="mb-3">
-          <p className="text-justify">
-            <span className="font-semibold text-stone-800">Mission:</span> Lorem
-            ipsum dolor, sit amet consectetur adipisicing elit.
-          </p>
-        </li>
-        <li>
-          <p className="text-justify">
-            <span className="font-semibold text-stone-800">Vision:</span> Ut
-            iste tenetur esse, ab suscipit dolorum culpa neque ratione accusamus
-            eligendi corporis, illo non consequatur.
-          </p>
-        </li>
-      </ul>
+      <div className="text-stone-900">
+        <h5 className="font-semibold mb-2">
+          The Trinity:
+        </h5>
+        <p className="mb-3 text-sm text-justify">
+          We believe in one God, eternally existent in three persons: Father, Son, and Holy Spirit.
+        </p>
+      </div>
+      <div className="text-stone-900">
+        <h5 className="font-semibold mb-2">
+          The Bible:
+        </h5>
+        <p className="mb-3 text-sm text-justify">
+          We believe the Bible is the inspired and authoritative Word of God.
+        </p>
+      </div>
+      <div className="text-stone-900">
+        <h5 className="font-semibold mb-2">
+          Jesus Christ:
+        </h5>
+        <p className="mb-3 text-sm text-justify">
+          We believe in Jesus Christ, who was crucified, died, rose again, and will return.
+        </p>
+      </div>
+      <div className="text-stone-900">
+        <h5 className="font-semibold mb-2">
+          Salvation:
+        </h5>
+        <p className="mb-3 text-sm text-justify">
+          We believe salvation is by grace through faith in Jesus Christ.
+        </p>
+      </div>
+      <div className="text-stone-900">
+        <h5 className="font-semibold mb-2">
+          The Church:
+        </h5>
+        <p className="mb-3 text-sm text-justify">
+          We believe in the universal Church, the body of Christ, and the local church as a community for worship and service.
+        </p>
+      </div>
+      <div className="text-stone-900">
+        <h5 className="font-semibold mb-2">
+          Christian Living:
+        </h5>
+        <p className="mb-3 text-sm text-justify">
+          We believe in living holy, compassionate lives, loving God and our neighbors.
+        </p>
+      </div>
+      <div className="text-stone-900">
+        <h5 className="font-semibold mb-2">
+          Eternal Destiny:
+        </h5>
+        <p className="text-sm text-justify">
+          We believe in eternal life with God for believers and eternal separation for the unrepentant.
+        </p>
+      </div>
     </>
   );
 };
+
+const CoreValues = () => {
+  return(
+    <>
+      <div className="text-stone-900">
+        <h5 className="font-semibold mb-2">
+          Love:
+        </h5>
+        <p className="mb-3 text-sm text-justify">
+          We value unconditional love, as demonstrated by Jesus Christ. We strive to love God and love our neighbors as ourselves, fostering a community of care and compassion.
+        </p>
+      </div>
+      <div className="text-stone-900">
+        <h5 className="font-semibold mb-2">
+          Faith:
+        </h5>
+        <p className="mb-3 text-sm text-justify">
+          We are committed to growing in our faith, trusting in God's promises, and seeking His will in all aspects of our lives.
+        </p>
+      </div>
+      <div className="text-stone-900">
+        <h5 className="font-semibold mb-2">
+          Service:
+        </h5>
+        <p className="mb-3 text-sm text-justify">
+          We believe in serving others with humility and generosity. We are dedicated to making a positive impact in our community and beyond through acts of kindness and service.
+        </p>
+      </div>
+      <div className="text-stone-900">
+        <h5 className="font-semibold mb-2">
+          Worship:
+        </h5>
+        <p className="mb-3 text-sm text-justify">
+          We value heartfelt worship that honors God and encourages spiritual growth. Our worship is a celebration of God's goodness and a response to His love.
+        </p>
+      </div>
+      <div className="text-stone-900">
+        <h5 className="font-semibold mb-2">
+          Community:
+        </h5>
+        <p className="mb-3 text-sm text-justify">
+          We prioritize building strong, supportive relationships within our church family. We believe in the importance of fellowship, encouragement, and accountability.
+        </p>
+      </div>
+      <div className="text-stone-900">
+        <h5 className="font-semibold mb-2">
+          Integrity:
+        </h5>
+        <p className="mb-3 text-sm text-justify">
+          We are committed to living with integrity, honesty, and transparency. We strive to reflect Christ in our actions and decisions.
+        </p>
+      </div>
+      <div className="text-stone-900">
+        <h5 className="font-semibold mb-2">
+          Discipleship:
+        </h5>
+        <p className="mb-3 text-sm text-justify">
+          We value discipleship and spiritual growth, encouraging one another to become more like Christ through prayer, study, and mentorship.
+        </p>
+      </div>
+      <div className="text-stone-900">
+        <h5 className="font-semibold mb-2">
+          Outreach:
+        </h5>
+        <p className="text-sm text-justify">
+          We are passionate about sharing the gospel and reaching out to those in need. We aim to be a light in the world, spreading hope and love to all.
+        </p>
+      </div>
+    </>
+  )
+}
 
 // Contact Component
 const locations = [
@@ -79,28 +192,28 @@ export default function useFreedom() {
       title: "Mission and Vision",
       id: "mv",
       content: <MissionAndVision />,
-      src: "https://scontent.fmnl33-1.fna.fbcdn.net/v/t39.30808-6/438804775_2221294444874368_6198002353763725479_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_ohc=On60k4LpodIQ7kNvgHdIMJs&_nc_ht=scontent.fmnl33-1.fna&oh=00_AYDtVOtnnud8XOzfQHD97rGH-_yXGbJ9IuqKH3LIxEd7gA&oe=669E8775",
+      src: "https://scontent.fmnl33-5.fna.fbcdn.net/v/t39.30808-6/321553548_650741546803726_1500842145677628364_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=osnVgisOGpYQ7kNvgH6AwCO&_nc_ht=scontent.fmnl33-5.fna&oh=00_AYDUPdrFh5iGw2mw2jwrXYkm-ww0yX2zs9guhNTJmr2yKQ&oe=669FABF9",
       active: false,
     },
     {
       title: "Statement of Faith",
       id: "sof",
       content: <StatementOfFaith />,
-      src: "https://scontent.fcrk3-3.fna.fbcdn.net/v/t39.30808-6/434148953_2206646576339155_8500095676298051358_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_ohc=ezRHKHY5SL0Q7kNvgF284n7&_nc_ht=scontent.fcrk3-3.fna&oh=00_AYC2WMasedmK_DweGS84lnI03u6vZYd0XXvP3wBFIj_nVw&oe=6698133B",
+      src: "https://scontent.fmnl33-6.fna.fbcdn.net/v/t39.30808-6/278778908_1711865632483921_425726134701017559_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=RkKjO7Adw9cQ7kNvgErOeF4&_nc_ht=scontent.fmnl33-6.fna&oh=00_AYD-HbKYYxivcUG_yYLxEgj0YQdRauZ52Fb4oSBREAe0wg&oe=669FB638",
       active: false,
     },
     {
       title: "Core Values",
       id: "cv",
-      content: "",
-      src: "https://scontent.fcrk3-2.fna.fbcdn.net/v/t39.30808-6/419896325_2157316044605542_7010210353471705348_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=XmkIcx4eLcYQ7kNvgHgnJ1y&_nc_ht=scontent.fcrk3-2.fna&oh=00_AYD9PXASljmAwyzipsp_I93RwvLgFhC437FgOBwa7ZxMlA&oe=66980A12",
+      content: <CoreValues/>,
+      src: "https://scontent.fmnl33-6.fna.fbcdn.net/v/t39.30808-6/310308627_1836297056707444_6062141197223447268_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=jIUWbtebaiYQ7kNvgFWXBWw&_nc_ht=scontent.fmnl33-6.fna&oh=00_AYA3KaAgoYrFROc3ypiwrZRE3hm390MMFn2vCcB3GCLWpQ&oe=669FC368",
       active: false,
     },
     {
       title: "Our Ministries",
       id: "om",
       content: "",
-      src: "https://scontent.fcrk3-2.fna.fbcdn.net/v/t39.30808-6/417819090_2152079115129235_5317915930658846315_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=4wQU3wQe1pUQ7kNvgGB7GId&_nc_ht=scontent.fcrk3-2.fna&oh=00_AYAK87lEzNRpDRSPsLG6uBaIjH5rI8ZrsH5I9HTehp0QaA&oe=66981910",
+      src: "https://scontent.fmnl33-1.fna.fbcdn.net/v/t39.30808-6/342707908_2746692112133664_9120053004278895129_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_ohc=NEYYh1Yq_yQQ7kNvgGX77-G&_nc_ht=scontent.fmnl33-1.fna&oh=00_AYDQXz3_-DH4pTf3SsPuWLzC0r7eMSluuHTsoP939OYinQ&oe=669F9FF8",
       active: false,
     },
   ]);
